@@ -2,7 +2,7 @@ const express = require('express')
 const { MongoClient } = require('mongodb');
 const url = 'mongodb+srv://rama:UhsMMnL9U4y1oBOB@cluster0.ol6pzyb.mongodb.net/?retryWrites=true&w=majority';
 const client = new MongoClient(url);
-const dbName = 'db_personalweb';
+const dbName = 'backend';
 const app = express()
 const port = process.env.PORT || 5000
 
